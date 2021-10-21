@@ -1,0 +1,98 @@
+
+
+.container-fluid {
+    padding: 1% 2%;
+    color: black;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+
+input {
+    display: inline-block;
+}
+
+@media (min-width: 900px) {
+    .container-fluid {
+        padding: 2% 5%;
+    }
+
+    
+h4 {
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+    .tidu1 {
+    margin-left: 270px;
+}
+    .tidu2 {
+    margin-left: 350px;
+    }
+
+    .tidu3 {
+        margin-left: 278px;
+    }
+
+    .tidu4 {
+        margin-left: 269px;
+    }
+    .btn {
+    padding: 10px 150px;
+}
+
+}
+
+.card {
+    padding: 2% 5%;
+}
+
+.card-header {
+    background-color: transparent;
+    border: none !important;
+    font-size: 2rem;
+}
+
+@media (max-width : 500px) {
+    .card-header {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+
+.btn-primary {
+
+    border: none ;
+    color: #ffff;
+}
+
+.blue:hover {
+    border: 2px solid blue;
+    background-color: transparent;
+    color: blue;
+}
+
+.green:hover {
+    border: 2px solid green;
+    background-color: transparent;
+    color: green;
+}
